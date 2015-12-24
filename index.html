@@ -1,0 +1,307 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Git Intro</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="assets/js/main.js"></script>
+        <script>
+        var clip = new ZeroClipboard(document.getElementById('my-button'));
+        </script>
+        
+	</head>
+	<body>
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro" class="scrolly active">Intro to Github</a></li>
+							<li><a href="#gitinit" class="scrolly">git init</a></li>
+							<li><a href="#gitbranch"class="scrolly">git branch</a></li>
+							<li><a href="#gitcheckout" class="scrolly">git checkout</a></li>
+							<li><a href="#gitstatus" class="scrolly">git status</a></li>
+                            <li><a href="#gitlog" class="scrolly">git log</a></li>
+                            <li><a href="#gitpush" class="scrolly">git push</a></li>
+                            <li><a href="#gitcommit" class="scrolly">git commit</a></li>
+                             <li><a href="#gitrebase" class="scrolly">git rebase</a></li>
+                             <li><a href="#gitstash" class="scrolly">git stash</a></li>
+                             <li><a href="#gitreset" class="scrolly">git reset</a></li>
+                             <li><a href="#gitadd" class="scrolly">git add</a></li>
+                             <li><a href="#gitdiff" class="scrolly">git diff</a></li>
+                            <li><a href="#about" class="scrolly">about</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro to Gitup -->
+					<section  id="intro" class="wrapper style4 fullscreen fade-up">
+						<div class="inner">
+							<h1>Intro to Git</h1>
+				
+							<ul class="actions">    
+								<li><a href="#about" class="button scrolly">About Project</a></li>
+							</ul>
+						</div>
+					</section>
+                <!-- git init -->
+                <section id="gitinit" class="wrapper style4 fade-up">
+						<div class="inner">
+							<h1>git init</h1>
+							<div class="features">
+								<section>
+									<code>git init [project-name]</code>
+                                    <br>
+									<p>git init creates an empty local Git repository or reinitializes an existing one with the specified name.</p>
+								</section>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+        
+
+			
+				<!-- git branch -->
+					<section id="gitbranch" class="wrapper style4 fade-up">
+						<div class="inner">
+                            <h1>git branch</h1>
+							<div class="features">
+								<section>
+									<span class="icon major fa-diamond"></span>
+									<code>git branch [branch-name]</code>
+                                    <br>
+									<p>git branch lists, creates, or deletes branches. To list all local branches in the current repository do not include a branch name</p>
+								</section>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- git checkout -->
+                    <section id="gitcheckout" class="wrapper style4 fade-up">
+						<div class="inner">
+                            <h1>git checkout</h1>
+							<div class="features">
+								<section>
+									<span class="icon major fa-diamond"></span>
+									<code>git checkout [branch-name]</code>
+                                    <br>
+									<p>git checkout switches to the specified branch and updates the working directory</p>
+								</section>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+					
+				<!-- git status -->
+					<section id="gitstatus" class="wrapper style4 fade-up">
+						<div class="inner">
+                            <h1>git status</h1>
+							<div class="features">
+								<section>
+									<span class="icon major fa-diamond"></span>
+									<code>git status</code>
+                                    <br>
+									<p>git status shows the working tree status, it lists all new modified files to be committed</p>
+								</section>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+                <!-- git log -->
+					<section id="gitlog" class="wrapper style4 fade-up">
+						<div class="inner">
+                            <h1>git log</h1>
+							<div class="features">
+								<section>
+									<span class="icon major fa-diamond"></span>
+									<code>git log</code>
+                                    <br>
+									<p>Lists verision history for the current branch, to list version history for a file, including renames type<br><code>git log --follow [file]</code></p>
+                                    
+								</section>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+                <!-- git push -->
+					<section id="gitpush" class="wrapper style4 fade-up">
+						<div class="inner">
+                            <h1>git push</h1>
+							<div class="features">
+								<section>
+									<span class="icon major fa-diamond"></span>
+									<code>git push [alias] [branch]</code>
+                                    <br>
+									<p>git push updates all local branch commits to GitHub</p>
+								</section>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+        <!-- git commit -->
+                    <section id="gitcommit" class="wrapper style4 fade-up">
+						<div class="inner">
+                            <h1>git commit</h1>
+							<div class="features">
+								<section>
+									<span class="icon major fa-diamond"></span>
+									<code>git commit -m "[message describing changes]"</code>
+                                    <br>
+									<p>git commit records changes to the repository permanently in version history.</p>
+								</section>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+        <!-- git rebase -->
+                    <section id="gitrebase" class="wrapper style4 fade-up">
+						<div class="inner">
+                            <h1>git rebase</h1>
+							<div class="features">
+								<section>
+									<span class="icon major fa-diamond"></span>
+									<code>git rebase [branch]</code>
+                                    <br>
+									<p>git rebase forward-ports local commits to the updated upstream head, takes all changes that were committed on one branch and replays them on another one.</p>
+								</section>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+        <!-- git stash -->
+                    <section id="gitstash" class="wrapper style4 fade-up">
+						<div class="inner">
+                            <h1>git stash</h1>
+							<div class="features">
+								<section>
+									<span class="icon major fa-diamond"></span>
+									<code>git stash</code>
+                                    <br>
+									<p>git stash temporarily stores all modified tracked files.</p>
+								</section>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+        
+        <!-- git reset -->
+                    <section id="gitreset" class="wrapper style4 fade-up">
+						<div class="inner">
+                            <h1>git reset</h1>
+							<div class="features">
+								<section>
+									<span class="icon major fa-diamond"></span>
+									<code>git reset [commit]</code>
+                                    <br>
+									<p>git reset undoes all commits after [commit], it preserves changes locally.</p>
+								</section>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+        
+        <!-- git add -->
+                    <section id="gitadd" class="wrapper style4 fade-up">
+						<div class="inner">
+                            <h1>git add</h1>
+							<div class="features">
+								<section>
+									<span class="icon major fa-diamond"></span>
+									<code>git add [file]</code>
+                                    <br>
+									<p>Snapshots the file in preparation for verioning. To add all files to index type<br><code>git add .</code></p>
+								</section>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+        <!-- git diff -->
+                    <section id="gitdiff" class="wrapper style4 fade-up">
+						<div class="inner">
+                            <h1>git diff</h1>
+							<div class="features">
+								<section>
+									<span class="icon major fa-diamond"></span>
+									<code>git diff [filename]</code>
+                                    <br>
+									<p>git diff checks differences between the working directory and the staging area.</p>
+								</section>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+        
+            <!-- about -->
+             <section id="about" class="wrapper style1 fade-up">
+						<div class="inner">
+                            <h1>about</h1>
+							<div class="features">
+								<section>
+                                    <span class="icon major fa-diamond"></span>
+									<p>This project was created for the Google Code In contest.</p>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+								</section>
+							</div>
+						</div>
+					</section>
+                
+				
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1">
+				<div class="inner">
+					<ul class="menu">
+						<li>Niels</li>
+					</ul>
+				</div>
+			</footer>
+	</body>
+</html>
